@@ -45,7 +45,7 @@ public class KNN_Algoritma {
         System.out.println("");
         System.out.println("Hasil Jarak Euclidean");
         System.out.println("R   " + "G   " + "B     " + "Kelas      " + "    ED");
-        for (int a = 1; a < 11; a++) {
+        for (int a = 1; a < 3; a++) {
             hasilED = jarakEuclidean(training.NR[a], NR, training.UN[a], UN);
 //             System.out.println(NR[a] + "    " + UN[a] + "   " + kelas[a] + "  " + hasilED);
 
